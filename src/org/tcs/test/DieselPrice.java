@@ -6,6 +6,10 @@ public class DieselPrice {
 			System.out.println("price of diesel 1000");
 	}
 	
+	private void addtoKart() {
+		System.out.println("Add to Kart is added");
+	}
+	
 	public static void main(String[] args) {
 		DieselPrice d = new DieselPrice();
 		d.priceOfDiesel();
